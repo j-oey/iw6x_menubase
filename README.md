@@ -26,20 +26,20 @@ adding a function takes 4 steps:
 menus are somewhat simple too:
 steps 1-4 are the same as a function but you will use newmenu(player,"MenuName") instead
 5) make a new submenu in the newmenu function
-  heres a template:
-      elseif menuset == "MenuName" then
-      option1:settext("")
-      option2:settext("")
-      option3:settext("")
-      option4:settext("")
-      option5:settext("")
-      option6:settext("")
-      option7:settext("")
-      option8:settext("")
-      option9:settext("")
-      optionct = 1
-      activemenu = menuset
-      backmenu = "none"
+  heres a template:\
+      elseif menuset == "MenuName" then\
+      option1:settext("")\
+      option2:settext("")\
+      option3:settext("")\
+      option4:settext("")\
+      option5:settext("")\
+      option6:settext("")\
+      option7:settext("")\
+      option8:settext("")\
+      option9:settext("") \
+      optionct = 1 \
+      activemenu = menuset \
+      backmenu = "none" \
       
  6) replace the backmenu with the previous menu you came from, if this is the main menu leave it as none
  7) add the text for functions in the menu and update the optionct variable to match the number of options
