@@ -36,26 +36,25 @@ steps 1-4 are the same as a function but you will use newmenu(player,"MenuName")
       option6:settext("")\
       option7:settext("")\
       option8:settext("")\
-      option9:settext("") \
+      option9:settext("")\
       optionct = 1 \
-      activemenu = menuset \
-      backmenu = "none" \
-      
+      activemenu = menuset\
+      backmenu = "none"\      
  6) replace the backmenu with the previous menu you came from, if this is the main menu leave it as none
  7) add the text for functions in the menu and update the optionct variable to match the number of options
  8) make a similar addition to the optionarray function
-    template:
-     elseif activemenu == "Submenu 1" then
-      if selection == 1 then test(player)
-      elseif selection == 2 then test(player)
-      elseif selection == 3 then test(player)
-      elseif selection == 4 then test(player)
-      elseif selection == 5 then test(player)
-      elseif selection == 6 then test(player)
-      elseif selection == 7 then test(player)
-      elseif selection == 8 then test(player)
-      elseif selection == 9 then test(player)
-      end
+    template:\
+     elseif activemenu == "Submenu 1" then\
+      if selection == 1 then test(player)\
+      elseif selection == 2 then test(player)\
+      elseif selection == 3 then test(player)\
+      elseif selection == 4 then test(player)\
+      elseif selection == 5 then test(player)\
+      elseif selection == 6 then test(player)\
+      elseif selection == 7 then test(player)\
+      elseif selection == 8 then test(player)\
+      elseif selection == 9 then test(player)\
+      end\
  9) if you only have 2 options you can remove the lines concerning options 3-9
 
 in terms of references heres a couple place to look that may help
