@@ -39,7 +39,7 @@ steps 1-4 are the same as a function but you will use newmenu(player,"MenuName")
       option9:settext("")\
       optionct = 1 \
       activemenu = menuset\
-      backmenu = "none"\      
+      backmenu = "none"\
  6) replace the backmenu with the previous menu you came from, if this is the main menu leave it as none
  7) add the text for functions in the menu and update the optionct variable to match the number of options
  8) make a similar addition to the optionarray function
