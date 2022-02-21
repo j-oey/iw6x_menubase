@@ -1,6 +1,18 @@
 # iw6x_menubase
 simple iw6x lua menu base i used for failsafe
 
+controls are not kbm friendly but can be edited:
+--open: aim in & dpad down
+--close/back: knife
+--scroll: dpad up/dpad down
+--select: x button
+
+console binds are as follows:
+--open: aim in & +actionslot 2
+--close/back: +melee_zoom
+--scroll: +actionslot 1/+actionslot 2
+--select: +usereload
+
 comes with one test function and a couple client based functions like teleport and kick
 
 i wont provide much help in terms of making specific functions but i am happy to explain how this base works and how to modify it
