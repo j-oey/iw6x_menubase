@@ -1,6 +1,8 @@
 # iw6x_menubase
 simple iw6x lua menu base i used for failsafe\
 \
+![Screenshot](screenshot (322).png)
+\
 controls are not kbm friendly but can be edited:\
 --open: aim in & dpad down\
 --close/back: knife\
