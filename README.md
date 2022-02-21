@@ -19,13 +19,13 @@ i wont provide much help in terms of making specific functions but i am happy to
 \
 give me credit for my work if you end up using this in a project, thanks!
 \
-adding a function takes 4 steps: \
-1) make the function (preferrably in a separate functions file and include it in your base file) \
-2) find a submenu where you want to put the function and change the text of sed option\
-3) update the option count if you replaced a blank function line\
-4) go down to the options array and find the functions for the corresponding submenu and add the function\
-
-menus are somewhat simple too:\
+adding a function takes 4 steps\
+1) make the function (preferrably in a separate functions file and include it in your base file)
+2) find a submenu where you want to put the function and change the text of sed option
+3) update the option count if you replaced a blank function line
+4) go down to the options array and find the functions for the corresponding submenu and add the function
+\
+menus are somewhat simple too\
 steps 1-4 are the same as a function but you will use newmenu(player,"MenuName") instead\
 5) make a new submenu in the newmenu function\
   heres a template:\
