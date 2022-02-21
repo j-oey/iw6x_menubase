@@ -46,6 +46,7 @@ steps 1-4 are the same as a function but you will use newmenu(player,"MenuName")
 7) add the text for functions in the menu and update the optionct variable to match the number of options\
 8) make a similar addition to the optionarray function\
     template:\
+   \
      elseif activemenu == "Submenu 1" then\
       if selection == 1 then test(player)\
       elseif selection == 2 then test(player)\
