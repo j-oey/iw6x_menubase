@@ -155,7 +155,7 @@ function menubuild(player)
 	option9.hidewheninmenu = false;
     option9:settext("")
 
-	newmenu(player,"Menu" )
+	newmenu(player,"Menu")
 	menuopen = true
 end
 
