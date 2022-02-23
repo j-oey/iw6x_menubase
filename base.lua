@@ -155,9 +155,8 @@ function menubuild(player)
 	option9.hidewheninmenu = false;
     option9:settext("")
 
-	newmenu(player,"^:Failsafe" )
+	newmenu(player,"Menu" )
 	menuopen = true
-	game:ontimeout(function () selection = 1 scrollbar.y = 72 end, 0)
 end
 
 ---options destroy on menu close only---
