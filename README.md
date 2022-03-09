@@ -65,4 +65,4 @@ steps 1-4 are the same as a function but you will use newmenu(player,"MenuName")
 \
 in terms of references heres a couple place to look that may help\
 https://xlabs.dev/iw6x_scripting_documentation \
-https://github.com/XLabsProject/iw6x-client/blob/develop/src/client/game/scripting/function_tables.cpp \
+https://github.com/XLabsProject/iw6x-client/blob/develop/src/client/game/scripting/function_tables.cpp
